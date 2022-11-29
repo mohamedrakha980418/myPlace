@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="MEDIA/IMG/LOGO/map_icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="MEDIA/IMG/LOGO/map_icon.png">
+
+    <title>مكانى</title>
+</head>
+<body>
+    <!-- ? --------*****Header*****----------------- -->
+    <header class="m-auto w-75" style="direction: ltr;">
+        <nav class="navbar bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img class="img1" src="MEDIA/IMG/LOGO/map_icon.png" alt="Bootstrap" width="45" height="45">
+              </a>
+
+              <button id="getLocation_Button" type="button" class="btn btn-danger btn-sm" style="box-shadow: 0 0 10px rgba(255, 0, 0, 0.555);">تحديد موقعى</button>
+
+              <button type="button" class="b2 btn btn-dark btn-sm">Flower Of Light</button>
+
+            </div>
+        </nav>
+
+        <div id="alert_div" class="alert alert-primary text-lg-center" style="display: none;text-align: center;" role="alert"></div>
+    </header>
+
+
+
+    <!-- ?-----------------*****main*****------------------- -->
+    <main class="w-75 m-auto mt-4">
+      <iframe id="map_Iframe" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=0&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+    </main>
+
+
+
+    <!-- ?-------------*****footer*****------------------ -->
+    <footer class="w-75 m-auto footer1" style="direction: ltr;">
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="MEDIA/IMG/index/FOOTER/map.jpg" class="img-fluid rounded-start img2" alt="map icon" style="height: 250px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body text-lg-center card1">
+              <h5 class="card-title">Flower Of Light - Live Map</h5>
+              <p class="card-text">موقع لعرض موقعك بشكل امن على الخريطة وسهل الاستخدام</p>
+              <p class="card-text"><small class="text-muted">floweroflight.com/app</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+   
+
+    <!-- ! bootstrap -->
+    <link rel="stylesheet" href="CODE/Bootstrap/b.css">
+    <script src="CODE/Bootstrap/b.js"></script>
+
+    <!-- ! fonts -->
+
+    <!-- ! css -->
+    <link rel="stylesheet" href="CODE/CSS/index.css">
+    
+    <!-- ! js -->
+    <script src="CODE/JS/index/header.js"></script>
+
+</body>
+</html>

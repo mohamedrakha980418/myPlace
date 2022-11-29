@@ -1,0 +1,41 @@
+@media screen and (orientation:portrait) {
+    .w-75{
+      width: 100% !important;
+    }
+
+    .m-auto{
+      margin: 0% !important;
+      margin-bottom: 30px !important;
+    }
+
+    .footer1{
+        margin-top: -29px !important;
+    }
+
+    nav{
+      position: relative;
+
+      height: 100px;
+    }
+
+    .img1{
+      position: absolute;
+      top: 10px;
+
+      margin-left: 30px !important;
+    }
+
+    .b2{
+      position: absolute;
+      bottom: 10px;
+    }
+
+    .img2{
+      width: 100%;
+    }
+
+    .card1 {
+      text-align: center;
+    }
+    
+  }
